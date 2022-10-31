@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&family=Roboto&display=swap');
+
 body {
     background: rgba(33, 33, 33, 0.98);
     background-image: url('https://tr.rbxcdn.com/62ab67370083b4e62022d88663cbd5eb/768/432/Image/Png');
@@ -8,11 +11,19 @@ body {
 
 h1 {
     color: white;
+    font-weight: bold;
     text-align: center;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
     color: white;
     text-align: center;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-size-adjust: auto;
 }
