@@ -1,0 +1,18 @@
+body {
+    background: rgba(33, 33, 33, 0.98);
+    background-image: url('https://tr.rbxcdn.com/62ab67370083b4e62022d88663cbd5eb/768/432/Image/Png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
