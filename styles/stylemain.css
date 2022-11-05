@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+body {
+    background: rgb(31, 106, 245);
+}
+
+.main {
+    text-align: center;
+}
+
+#title {
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#small-text {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#learnmorebtn {
+    background-color: rgb(45, 182, 182);
+    color: #ffffff;
+    text-decoration: none;
+    width: 230px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 70px;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
