@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OOFandLOLBOM Studios</title>
+    <link rel="icon" href="https://tr.rbxcdn.com/c8f1d64deb35bf195bdf6a54e236c97b/150/150/Image/Png">
+    <link rel="stylesheet" href="styles/stylelogin.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a id="active" class="loginbtn" href="login.html">Login</a>
+    </div><br><br><br>
+    <div class="main">
+        <span id="title">
+            LOGIN
+        </span><br>
+        <span id="small-text">
+            For a better experience while using our website, please log in.<br>If you don't have an account, you can create one by <a id="createaccountlink" href="#home">clicking here</a>
+        </span>
+    </div><br>
+    <div class="loginform">
+        <label>Username: </label>
+        <input id="username" type="text" placeholder="Username" name="username" required>
+        <label>Password</label>
+        <input id="password" type="password" placeholder="Password" name="password" required>
+        <button id="loginbutton" type="submit">Login</button>
+    </div>
+    <script>
+        document.getElementById('loginbutton').onclick = function() {
+            let username = document.getElementById('username').value
+            let password = document.getElementById('password').value
+            alert(`Username: ${username}\nPassword: ${password}`)
+        };
+    </script>
+</body>
+</html>
